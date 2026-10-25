@@ -1,0 +1,39 @@
+generated: '2026-10-25'
+method: searched
+generator: extract-docs-artifacts.py (local)
+source: https://www.joinswsh.com/pricing
+sources:
+- https://www.joinswsh.com/pricing
+name: swsh pricing
+audience: consumer
+pricing_basis: free
+plans:
+- name: Consumer
+  price_text: $0 / mo
+  price: 0
+  billing_period: monthly
+  description: Share unlimited photos for personal events. Free forever.
+- name: Starter
+  price_text: $100 /mo
+  price: 100
+  billing_period: monthly
+  description: 3 albums, analytics console, media hub, semantic search, custom upload agreement, plus all Consumer features.
+- name: Growth
+  price_text: $250 /mo
+  price: 250
+  billing_period: monthly
+  description: 5 albums, unlimited CRM collection, short‑form video clipping, embed integration, discoverable albums, plus all Starter features.
+- name: Enterprise
+  price_text: Contact Us
+  description: Custom number of concurrent active albums, white glove service, commerce and discoverability, custom branding, sponsor and song
+    detection, advanced reporting, and other enterprise features.
+  features:
+  - White glove service
+  - Commerce and discoverability
+  - Custom branding and themes
+  - Sponsor and song detection
+  - Advanced reporting
+  limits:
+  - name: custom
+    limit_text: Custom
+docs: https://www.joinswsh.com/pricing

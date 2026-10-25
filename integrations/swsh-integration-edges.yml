@@ -1,0 +1,16 @@
+generated: '2026-10-25'
+method: none
+source:
+- https://zapier.com/apps/swsh/integrations
+- https://n8n.io/integrations/swsh/
+- https://composio.dev/toolkits/swsh
+- https://monid.ai/tools/swsh
+checked:
+- https://composio.dev/toolkits/swsh
+- https://monid.ai/tools/swsh
+- https://n8n.io/integrations/swsh/
+- https://zapier.com/apps/swsh/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []

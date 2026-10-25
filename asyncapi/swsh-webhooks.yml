@@ -1,0 +1,20 @@
+generated: '2026-10-25'
+method: searched
+generator: extract-docs-artifacts.py (local)
+source: https://docs.joinswsh.com/webhooks/newPhoto
+sources:
+- https://docs.joinswsh.com/webhooks/newPhoto
+- https://docs.joinswsh.com/webhooks/newAlbum
+- https://docs.joinswsh.com/webhooks/photoLabelAdded
+- https://docs.joinswsh.com/api-reference/createSubscription
+description: Webhooks are delivered via HTTPS POST to the configured targetUrl. Subscriptions require an API key in the x-api-key header.
+events:
+- event: newPhoto
+  description: A new photo has been added to the album.
+- event: newAlbum
+  description: A new album has been created.
+- event: photoLabelAdded
+  description: A label has been added to an Active photo in an album.
+delivery:
+  content_type: application/json
+docs: https://docs.joinswsh.com/webhooks/newPhoto

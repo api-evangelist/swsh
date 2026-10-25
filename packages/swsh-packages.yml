@@ -1,0 +1,12 @@
+generated: '2026-10-25'
+method: searched
+source: https://www.joinswsh.com/docs
+packages:
+  - name: "@somewhere-somehow/swsh-public-api"
+    registry: "npm"
+    url: "https://www.npmjs.com/package/@somewhere-somehow/swsh-public-api"
+    language: "javascript"
+    official: true
+    version: "0.1.2"
+    published: "2024-06-15"
+    note: "latest version from npm registry"

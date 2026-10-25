@@ -1,0 +1,93 @@
+generated: '2026-10-25'
+method: derived
+source: the pre-flight dossier, apis.yml pointers, spec servers, well-known, vendors -- nothing fetched here
+generator: derive-hosts.py
+summary:
+  hosts: 6
+  own: 6
+  other_domain: 0
+  platform: 0
+  roles:
+  - api
+  - docs
+  - other
+  - status
+  - website
+hosts:
+- host: api.joinswsh.com
+  found_by:
+  - contract-discovery
+  types: []
+  serves: []
+  registrable_domain: joinswsh.com
+  role: api
+  relation: own
+- host: dev-docs.joinswsh.com
+  found_by:
+  - probed
+  - site-links
+  - contract-discovery
+  - well-known
+  types: []
+  serves: []
+  registrable_domain: joinswsh.com
+  role: other
+  relation: own
+- host: docs.joinswsh.com
+  found_by:
+  - pointer
+  - probed
+  - site-links
+  - docs-index
+  - spec-found
+  - contract-discovery
+  - well-known
+  types:
+  - Documentation
+  - APIReference
+  serves:
+  - docs
+  - spec
+  registrable_domain: joinswsh.com
+  role: docs
+  relation: own
+- host: staging-docs.joinswsh.com
+  found_by:
+  - probed
+  - site-links
+  - well-known
+  types: []
+  serves: []
+  registrable_domain: joinswsh.com
+  role: other
+  relation: own
+- host: status.joinswsh.com
+  found_by:
+  - probed
+  - site-links
+  - contract-discovery
+  - well-known
+  types: []
+  serves: []
+  registrable_domain: joinswsh.com
+  role: status
+  relation: own
+- host: www.joinswsh.com
+  found_by:
+  - pointer
+  - probed
+  - contract-discovery
+  - well-known
+  - vendor-detect
+  types:
+  - TermsOfService
+  - Pricing
+  - Newsroom
+  - Login
+  - Website
+  serves:
+  - hosting
+  vendor: vercel
+  registrable_domain: joinswsh.com
+  role: website
+  relation: own
